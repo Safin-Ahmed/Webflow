@@ -1,0 +1,25 @@
+@media(max-width: 1400px){
+
+	.header-content h1{
+		font-size: 38px;
+	}
+}
+
+@media(max-width: 767px){
+
+	.product{
+		text-align: center;
+	}
+}
+
+@media(max-width: 1200px){
+
+	.product h2{
+		margin-top: 16px;
+		font-size: 20px;
+	}
+	.product p{
+
+		font-size: 13px;
+	}
+}

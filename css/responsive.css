@@ -1,25 +1,231 @@
-@media(max-width: 1400px){
+@media(max-width: 1399px){
 
 	.header-content h1{
-		font-size: 38px;
+		font-size: 44px;
+		padding-bottom: 5px;
+	}
+
+	.header-content p{
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+
+	.header-content a{
+
+			font-size: 16px;
+	}
+
+	.product h2{
+		font-size: 22px;
+		padding-bottom: 10px;
+	}
+	.product p{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.solution h2{
+		font-size: 21px;
+	}
+	.solution p{
+		font-size: 13px;
+		font-weight: 500;
+	}
+
+	.review h2 {
+    font-size: 20px;
+   }
+   
+.review-border p, .review p {
+    line-height: 1.5;
+    font-size: 14px !important;
+	}
+
+.review h4{
+	font-size: 16px;
+}
+
+}
+
+@media(max-width: 1199px){
+
+	.single-company{
+		width: 11.3333%;
+	}
+
+	.product h2{
+		font-size: 18px;
+	}
+
+	.product p{
+		font-size: 11px;
+	}
+
+	.solution h2{
+		font-size: 16px;
+	}
+
+	.solution p{
+		font-size: 11px;
+	}
+
+	.video h2{
+		font-size: 27px;
+	}
+
+	.video p{
+
+	}
+}
+
+@media(max-width: 991px){
+
+	.header-content h1{
+		font-size: 32px;
+	}
+
+	.header-content p{
+		font-size: 11px;
+	}
+
+	.header-content a {
+		font-size: 11px;
+	}
+	.company-section h2{
+		font-size: 21px;
+	}
+	.single-company{
+		width: 13.3333%;
+	}
+	.single-product{
+		padding: 2rem 32px;
+	}
+	.solution h2{
+		font-size: 14px;
+	}
+	.solution-title h2{
+		font-size: 32px;
+	}
+	.review h2{
+		font-size: 15px;
+		padding-bottom: 15px;
+	}
+
+	.review div.row h3{
+		font-size: 20px;
+	}
+	.review-border{
+		padding-bottom: 0;
+	}
+	.product-benefit-title h2{
+		font-size: 34px;
+	}
+	.product-benefit-section h5{
+		font-size: 14px;
+	}
+	.visitor h2{
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+	.visitor a {
+		font-size: 15px;
+	}
+	.visitor h4{
+		font-size: 14px;
+	}
+	.video h2{
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+	.video p{
+		font-size: 15px;
+		line-height: 1.5;
 	}
 }
 
 @media(max-width: 767px){
+	.header-content p{
+		font-size: 15px;
+	}
+	.single-company{
+		width: 15.3333%;
+	}
 
 	.product{
 		text-align: center;
 	}
-}
-
-@media(max-width: 1200px){
-
 	.product h2{
-		margin-top: 16px;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.product p{
-
-		font-size: 13px;
+		font-size: 15px;
 	}
+	.solution{
+		text-align: center;
+	}
+	.solution h2{
+		font-size: 22px;
+	}
+	.solution p{
+		font-size: 15px;
+	}
+	.title-responsive{
+		padding-bottom: 50px;
+	}
+	.review{
+		text-align: center;
+	}
+	.review h2{
+		font-size: 19px;
+	}
+	.review p{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.review div.row h3{
+		font-size: 32px;
+	}
+	.product-benefit-title{
+		padding-bottom: 50px;
+	}
+	.product-benefit-title h2{
+		font-size: 25px;
+	}
+	.visitor{
+		text-align: center;
+	}
+	.visitor h2, .video h2{
+		font-size: 20px;
+	}
+	.visitor img, .video img{
+		margin-top: 50px;
+	}
+	.video{
+		text-align: center;
+	}
+
+}
+
+@media(max-width: 575px){
+
+	.footer-width{
+		width: 100%;
+	}
+	.header-content h1{
+		font-size: 30px;
+	}
+	.header-content a {
+		font-size: 10px;
+	}
+	.single-company{
+		width: 50%;
+		margin: 0.7rem !important;
+	}
+	.company-section h2{
+		font-size: 15px;
+	}
+	.solution-title img, .visitor img, .video img{
+		max-width: 85%;
+	}
+
+
 }

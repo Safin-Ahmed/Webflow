@@ -52,6 +52,10 @@ header{
 .product-title h2{
 	font-weight: 700;
 }
+.product-title p, .solution-title p{
+	padding: 0 400px;
+	margin-top: 20px;
+}
 .product h2{
 	margin-top: 30px;
 	font-size : 27px;
@@ -186,14 +190,21 @@ h5{
 }
 .visitor h2{
 
-	font-weight: 700;
-	line-height: 1.5;
-	padding-bottom: 10px;
+font-weight: 700;
+
+line-height: 1.5;
+
+padding-bottom: 10px;
+
+padding-right: 205px;
 }
 .visitor p{
 
-	font-weight: 500;
-	line-height: 1.7;
+font-weight: 500;
+
+line-height: 1.7;
+
+padding-right: 219px;
 }
 .visitor a{
 	color: #fff;
@@ -220,9 +231,11 @@ padding: 15px;
     font-weight: 700;
     line-height: 1.5;
     padding-bottom: 15px;
+    padding-right: 190px;
 }
 .video p{
     line-height: 1.7;
+    padding-right: 220px;
 }
 
 footer{
